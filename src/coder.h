@@ -1,8 +1,10 @@
 #include <inttypes.h>
-enum{
+enum
+{
     MaxCodeLength = 4
 };
-typedef struct {
+typedef struct
+{
     uint8_t code[MaxCodeLength];
     size_t length;
 } CodeUnit;
